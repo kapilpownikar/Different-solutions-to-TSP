@@ -11,7 +11,7 @@ NOTE: Any form of
   - Previous attempts include: - Nearest Neighbour heuristic with 2-OPT
                                - Cheapest Insertion
                                - Farthest Insertion
-3. Part C: Finding the optimal solution to the Shortest Hamiltonian Cycle problem (Traveling Salesperson Problem):
+3. Part C (--mode OPTTSP): Finding the optimal solution to the Shortest Hamiltonian Cycle problem (Traveling Salesperson Problem):
 Here, I use a Branch-and-Bound approach where:
 Step 1: Upper-bound (best guess estimate) is provided by running arbitrary insertion
 Step 2: genPerms() function generates all permutations but prunes the ones which are NOT promising (decided by the promising function)
