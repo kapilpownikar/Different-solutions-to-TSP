@@ -1,7 +1,7 @@
 # Different-solutions-to-TSP
 This is a coursework project on creating different solutions to the Traveling Salesperson Problem:
 
-NOTE: Any form of 
+NOTE: Copying this code is against University of Michigan's Honor Code. For your convenience here is the link to the honor code: http://ossa.engin.umich.edu/wp-content/uploads/sites/212/2015/04/Honor-code-pamphlet-Adobe-Prof.pdf. 
 
 3 parts to the project:
 
@@ -15,7 +15,8 @@ NOTE: Any form of
 Here, I use a Branch-and-Bound approach where:
 Step 1: Upper-bound (best guess estimate) is provided by running arbitrary insertion
 Step 2: genPerms() function generates all permutations but prunes the ones which are NOT promising (decided by the promising function)
-        - Promising() : finds the projected potential cost of a certain branch by finding an MST for the remaining vertices in the path that are NOT a part of the partial soln. alrready
+        - Promising() : finds the projected potential cost of a certain branch by finding an MST for the remaining vertices in the path that are NOT a part of the partial soln. already
+
 File breakdown:
 
 - GameADT.h holds all code for 3 different parts of the project
